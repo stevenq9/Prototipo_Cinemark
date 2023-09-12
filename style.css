@@ -1,0 +1,280 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+  }
+
+  
+  section{
+    position: relative;
+    width: 100%;
+}
+
+#imagenBanner{
+    width: 100%;
+    height: 300px;
+}
+
+#ctrl_atras{
+    position: absolute;
+    top: 50%;
+    left: 1%;
+    height: 30px;
+    width: 30px;
+}
+
+#ctrl_adelante{
+    position: absolute;
+    top: 50%;
+    right: 1%;
+    height: 30px;
+    width: 30px;
+}
+
+header{
+    height: 60px;
+}
+
+.logo{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin-right: 25px;
+}
+
+svg{
+    height: 25px;
+    width: 25px; 
+    margin-top: 7px;
+    margin-left: 1px;
+}
+
+/*** Lista ****/
+ul{
+    list-style-type: none;
+    display: flex;
+    column-gap: 34px;
+    margin-top: 15px;
+}
+
+ul li{
+    text-decoration: none;
+    display: inline-flex;
+}
+
+ul li a{
+    color: #666666;
+    text-decoration: none;
+}
+
+link{
+    text-decoration: none;
+}
+
+/**** Botones ****/ 
+.boton{
+    height: 40px;
+    width: 150px;
+    border-radius: 50px;
+    margin-left: 10px;
+}
+
+span{
+    width: 100%;
+}
+
+
+footer{
+    background-color: rgba(40, 43, 52, 0.9);
+}
+
+h4{
+    font-size: 18px;
+}
+
+h5{
+    font-size: 12px;
+}
+
+.img_descarga{
+    width: 220px;
+    height: 50px;
+}
+
+menu{
+    height: 65px;
+    background-color: #3E4149;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    column-gap: 35px;
+    margin-top: 15px;
+}
+
+ul li{
+    text-decoration: none;
+    display: inline-flex;
+}
+
+ul li a{
+    color: #666666;
+    text-decoration: none;
+}
+
+img{
+    height: 55px;
+    width: 300px;
+}
+
+.pelicula{
+    width: 250px;
+    height: 320px;
+}
+
+#portadaPelicula{
+    width: 100%;
+    height: 300px;
+}
+
+.btn_horarios{
+    width: 100%;
+    height: 20px;
+    text-align: center;
+}
+
+.btn{
+    margin-top: 20px;
+    width: 250px;
+    text-align: center;
+    border-radius: 50px;
+}
+
+
+
+
+*{
+    background-color: #282B34;
+    font-family: "Roboto Condensed",sans-serif;;
+    color: #ECECEC;
+}
+
+/***** Tipografia *******/
+.txt_primario{
+    color: #ECECEC;
+}
+
+.txt_secundario{
+    color: #282B34;
+}
+
+.txt_terciario{
+    color: #B5121B;
+}
+
+.txt_auxiliar{
+    color: #BFBFBF;
+}
+
+/***** Colores *****/
+.bg_primario{
+    background-color: #282B34;
+}
+
+.bg_secundario{
+    background-color: #ECECEC;
+}
+
+.bg_terciario{
+    background-color: #B5121B;
+}
+
+.bg_auxiliar{
+    background-color: #BFBFBF;
+}
+
+.btn_bordes{
+    border: 1px solid #797979;
+}
+
+.boton{
+    height: 40px;
+    width: 150px;
+    border-radius: 50px;
+    margin-left: 10px;
+}
+
+
+/***** *****/
+select{
+    border-radius: 15px;
+    height: 30px;
+}
+
+.control_cartelera{
+    width: 60px;
+
+}
+
+#tituloEstrenos{
+    width: 185px;
+    margin-left: 91px;
+}
+
+#DBOX{
+    position: relative;
+}
+
+h3{
+    position: absolute;
+    top: 1%;
+    left: 1%;
+    margin-bottom: 10px;
+}
+
+p{
+    position: absolute;
+    top: 10%;
+    left: 1%;
+}
+
+#img_dbox{
+    width: 95%;
+    height: 300px;
+}
+
+#dbox_info{
+    position: absolute;
+    bottom: 5%;
+    left: 3%;
+}
+
+#transformes_dbox{
+    width: 200px;
+    height: 230px;
+    position: absolute;
+    bottom: 10%;
+    right: 13%;
+}
+
+.img_promocion{
+    width: 500px;
+    height: 200px;
+}
+
+.links{
+    text-decoration: none;
+}
+
+.links:hover{
+    color: #B5121B;
+}

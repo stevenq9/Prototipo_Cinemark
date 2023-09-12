@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <!-- Incluye los archivos CSS de Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <div id="inicioSesion" className='row d-flex justify-content-center'>
+        <div id='' className='row d-flex align-items-center formulario mt-5 ps-5 pt-2 pb-2 pe-5'>
+            <h1 className='txt_terciario fw-bold text-center'>INICIAR SESIÓN</h1>
+
+            <input className='bg_secundario' type="email" placeholder='CORREO' />
+            <input className='bg_secundario' type="password" name="contraseña" placeholder='CONTRASEÑA' />
+            <div className='row d-flex justify-content-center '>
+                <button className='bg_terciario btn txt_primario'>INGRESAR</button>
+            </div>
+            <Link className='links txt_primario' to="/recuperarContraseña">
+                <h5 className='text-center'>¿Olvidaste tu contraseña?</h5>
+            </Link>
+            <text>O continua con:</text>
+            <div className=''>
+                <img className='col-5 ms-4 me-3' src="../images/continuaConGoogle.png" alt="Registrate con Google" />
+                <img className='col-5' src="./images/continuaConFacebook.png" alt="Registrate con Facebook" />
+            </div>
+        </div>
+    </div>
+    
+    <!-- Incluye los archivos JavaScript de Bootstrap (jQuery y Popper.js son requeridos) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

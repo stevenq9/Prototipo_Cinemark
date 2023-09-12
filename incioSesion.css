@@ -1,0 +1,146 @@
+/*** FORMS ***/ 
+#inicioSesion{
+    height: 462px;
+}
+
+input{
+    height: 40px;
+    border-radius: 15px;
+}
+
+.btn{
+    border-radius: 50px;
+}
+
+
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+  }
+  
+  
+#root{
+    background-color: #282B34;
+    font-family: "Roboto Condensed",sans-serif;;
+    color: #ECECEC;
+}
+
+/***** Tipografia *******/
+.txt_primario{
+    color: #ECECEC;
+}
+
+.txt_secundario{
+    color: #282B34;
+}
+
+.txt_terciario{
+    color: #B5121B;
+}
+
+.txt_auxiliar{
+    color: #BFBFBF;
+}
+
+/***** Colores *****/
+.bg_primario{
+    background-color: #282B34;
+}
+
+.bg_secundario{
+    background-color: #ECECEC;
+}
+
+.bg_terciario{
+    background-color: #B5121B;
+}
+
+.bg_auxiliar{
+    background-color: #BFBFBF;
+}
+
+.btn_bordes{
+    border: 1px solid #797979;
+}
+
+.boton{
+    height: 40px;
+    width: 150px;
+    border-radius: 50px;
+    margin-left: 10px;
+}
+
+
+/***** *****/
+select{
+    border-radius: 15px;
+    height: 30px;
+}
+
+.control_cartelera{
+    width: 60px;
+
+}
+
+#tituloEstrenos{
+    width: 185px;
+    margin-left: 91px;
+}
+
+#DBOX{
+    position: relative;
+}
+
+h3{
+    position: absolute;
+    top: 1%;
+    left: 1%;
+    margin-bottom: 10px;
+}
+
+p{
+    position: absolute;
+    top: 10%;
+    left: 1%;
+}
+
+#img_dbox{
+    width: 95%;
+    height: 300px;
+}
+
+#dbox_info{
+    position: absolute;
+    bottom: 5%;
+    left: 3%;
+}
+
+#transformes_dbox{
+    width: 200px;
+    height: 230px;
+    position: absolute;
+    bottom: 10%;
+    right: 13%;
+}
+
+.img_promocion{
+    width: 500px;
+    height: 200px;
+}
+
+.links{
+    text-decoration: none;
+}
+
+.links:hover{
+    color: #B5121B;
+}
